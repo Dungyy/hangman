@@ -1,6 +1,7 @@
 import random
 
-word_list = ["brandon", "valencia", "duluth", "dungy", "oliver", "python", "hacker"]
+
+word_list = ["brandon", "valencia", "duluth", "dungy", "oliver", "python", "hacker", "javascript", "kalilinux"]
 
 def get_word(word_list):
     word = random.choice(word_list)
@@ -54,7 +55,7 @@ def play(word):
     if guessed:
         print("AWESOME Job, You guessed the word!")
     else:
-        print("I'm sorry, but you ran out of tries. The word was " + word + ". Maybe next time!!")
+        print("I'm sorry, but you ran out of tries.  \nThe word was " + word + ". Maybe next time!!")
 
 
 
